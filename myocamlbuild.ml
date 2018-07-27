@@ -7,4 +7,5 @@ let () = dispatch @@ function
       copy_rule "unix" "src/%" "unix/%";
       copy_rule "xen" "src/%" "xen/%";
       copy_rule "solo5" "src/%" "solo5/%";
+      copy_rule "esp32" "src/%" "esp32/%";
   | _ -> ()
